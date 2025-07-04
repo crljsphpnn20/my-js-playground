@@ -4,82 +4,48 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JS | Lesson 1</title>
+    <title>JavaScript | Lessons</title>
+        <link rel="shortcut icon" href="images/mylogo.png" type="png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+
 </head>
 
 <body>
 
-    <!doctype html>
-    <html lang="en">
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Simple JavaScript Tutorial</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-
-        <script>
-            var state = "off";
-
-            function changeText() {
-                if (state == "off") {
-                    state = "on";
-                    document.getElementById("text1").innerHTML = ' "Hello other Creatures in Mars." ';
-                } else {
-                    state = "off";
-                    document.getElementById("text1").innerHTML = '" Hello People on Earth. "';
-                }
-            }
-
-        </script>
-    </head>
-
-    <body>
-
-        <div class="container-fluid shadow py-5 text-center" style="background-color: rgb(204, 204, 43); color: white;">
-            <div class="row">
-                <div class="col">
-                    <h1 class="">JavaScript InnerHTML Tutorial</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col bg-warning py-5 shadow">
+                <div class="display-1 text-center">
+                    JavaScript Lessons
                 </div>
             </div>
         </div>
-        <div class="container-fluid py-5 my-5">
+        <div class="container">
             <div class="row">
-                <div class="col-10 mx-auto rounded-3 p-5 shadow mx-3" style="background-color: rgb(141, 186, 223);">
-                    <p class="test-text text-center" style="font-size: 32px;" id="text1">
-                        " Hello People on Earth. "
-                    </p>
-                    <hr>
-                    <p class="test-text">
-                    <h3>In order to change a inner html here's the step.</h3>
-                    <br>
-                    <li>Step #1 : Determine a 'id'. every element must have an id and the content of that element can
-                        manipulate.</li>
-                    <li>Step#2 : Declare a button "input type submit, input type button, or button tag.</li>
-                    <li>Step#3 : Declare a function function_name() { code }.</li>
-                    <li>Step#4 : Must input this in function, document.getElementById("id_name").innerHTML = "
-                        <i>Content Here...</i> "</li>
-                    </p>
-                </div>
-            </div>
-            <div class="row py-3 text-center">
-                <div class="col">
-                    <button type="button" class="btn btn-primary shadow" onclick="changeText()">Change Text</button>
+                <div class="col-12 col-md-6 col-xl-4 mx-auto">
+                    <div class="card rounded-5 m-3 p-5 shadow">
+                        <div class="display-3 text-center">
+                            Lesson 1
+                        </div>
+                        <p class="text-secondary text-center">
+                            <i>
+                                (console.log & alert function)
+                            </i>
+                        </p>
+                        <iframe src="http://127.0.0.1:5500/my-js-playground/JS1/index.html" frameborder="0"></iframe>
+                        <a href="https://github.com/crljsphpnn20/my-js-playground/blob/main/JS1/index.html" target="" class="m-2 btn btn-dark rounded-5 shadow">
+                            Github
+                        </a>
+                        <a href="JS1/index.html" target="" class="m-2 btn btn-outline-primary rounded-5 shadow">
+                            View
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-            crossorigin="anonymous"></script>
-    </body>
-
-    </html>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
